@@ -1,0 +1,19 @@
+{
+  "name": "tau_cucumber_js_google_search",
+  "version": "1.0.0",
+  "description": "Simple Google Search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelobitt/tau_cucumber_js_google_search.git"
+  },
+  "author": "Gavin Samuels with code customizations by Marcelo de Bittencourt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcelobitt/tau_cucumber_js_google_search/issues"
+  },
+  "homepage": "https://github.com/marcelobitt/tau_cucumber_js_google_search#readme"
+}
