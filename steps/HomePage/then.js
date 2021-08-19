@@ -1,7 +1,6 @@
 import {Then} from "@cucumber/cucumber";
-import verifyLinksContent from "../../support/assertions/verifyLinksContent"
+import verifyLinksContain from "../../support/assertions/verifyLinksContain"
 
 Then(/^links related to "(.*)" are shown on the results page$/, keyword => {
-    const links = $$(".LC20lb");
-    verifyLinksContent(links, keyword);
+    verifyLinksContain(keyword);
 })
